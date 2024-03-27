@@ -10,7 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .nav-logo {
@@ -112,4 +112,57 @@ span {
 .nav-cart i{
  font-size: 30px;
 
+
+}
+
+/* panel */
+.panel{
+   background-color: rgb(35, 47, 62); 
+   color: white;
+   height:40px ;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.panel .panel-all{
+    display: flex;
+    justify-content: space-between;
+}
+.panel .panel-option{
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deal{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+
+
+/* hero section */
+.hero-section{
+    background-image:url("img/hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.hero-caption{
+    color: black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 40px;
+}
+.hero-caption a{
+    color: #007185;
+text-decoration: none;
 }
